@@ -1,8 +1,59 @@
-# React + Vite
+# 🛒 Tienda React - E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web de una tienda en línea creada con **React**. Permite a los usuarios explorar productos, filtrarlos según precio y categoría, agregar productos al carrito de compras, y ajustar la cantidad deseada para cada artículo en el carrito.
 
-Currently, two official plugins are available:
+## 🖥️ Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Listado de productos**: Muestra todos los productos disponibles de un archivo JSON, permitiendo a los usuarios explorar las distintas opciones.
+
+2. **Filtrado por precio y categoría**: Los usuarios pueden:
+   - Filtrar los productos por rango de precios (de menor a mayor o viceversa).
+   - Filtrar por categorías específicas para encontrar más fácilmente el tipo de producto que buscan.
+
+3. **Carrito de compras**:
+   - Los productos se pueden agregar al carrito, donde el usuario puede:
+     - Aumentar o disminuir la cantidad de un producto en el carrito.
+     - Ver un resumen del total de productos seleccionados.
+     - Eliminar productos del carrito.
+
+4. **Gestión de cantidades**: Permite al usuario especificar la cantidad de cada producto que desea comprar, con la posibilidad de modificar esta cantidad desde el carrito.
+
+## 🛠️ Tecnologías utilizadas
+
+- **React**: Framework de JavaScript para construir la interfaz.
+- **Hooks**: Manejo de estado y efectos dentro de los componentes funcionales.
+- **JSON**: Archivo con los datos de los productos simulando una base de datos.
+- **CSS**: Estilos básicos para la interfaz del usuario.
+
+## 🚀 Instrucciones para la instalación
+
+1. Clona el repositorio:
+
+    ```bash
+    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    ```
+
+2. Instala las dependencias:
+
+    ```bash
+    npm install
+    ```
+
+3. Ejecuta la aplicación:
+
+    ```bash
+    npm start
+    ```
+
+## 📂 Estructura del proyecto
+
+- `/src`: Carpeta principal que contiene los componentes y lógica de la aplicación.
+  - `/components`: Contiene los componentes reutilizables como el carrito, la lista de productos y los filtros.
+  - `/data`: Contiene el archivo `products.json` con los datos de los productos.
+  - `/styles`: Archivos CSS para estilizar la aplicación.
+
+## 🌟 Futuras mejoras
+
+- Agregar paginación para una mejor experiencia de usuario en el listado de productos.
+- Implementar integración con una API para manejar productos de forma dinámica.
+- Incluir un sistema de autenticación y perfiles de usuario.
