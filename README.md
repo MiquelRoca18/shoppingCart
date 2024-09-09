@@ -23,7 +23,7 @@ Este proyecto es una aplicación web de una tienda en línea creada con **React*
 - **React**: Framework de JavaScript para construir la interfaz.
 - **Hooks**: Manejo de estado y efectos dentro de los componentes funcionales.
 - **JSON**: Archivo con los datos de los productos simulando una base de datos.
-- **CSS**: Estilos básicos para la interfaz del usuario.
+- **Tailwind**: Estilos básicos para la interfaz del usuario.
 
 ## 🚀 Instrucciones para la instalación
 
