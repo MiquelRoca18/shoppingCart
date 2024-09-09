@@ -45,13 +45,6 @@ Este proyecto es una aplicación web de una tienda en línea creada con **React*
     npm start
     ```
 
-## 📂 Estructura del proyecto
-
-- `/src`: Carpeta principal que contiene los componentes y lógica de la aplicación.
-  - `/components`: Contiene los componentes reutilizables como el carrito, la lista de productos y los filtros.
-  - `/data`: Contiene el archivo `products.json` con los datos de los productos.
-  - `/styles`: Archivos CSS para estilizar la aplicación.
-
 ## 🌟 Futuras mejoras
 
 - Agregar paginación para una mejor experiencia de usuario en el listado de productos.
