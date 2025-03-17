@@ -18,11 +18,11 @@ const UPDATE_STATE_BY_ACTION = {
     const productInCartIndex = state.findIndex(item => item.id === id)
 
     if (productInCartIndex >= 0) {
-      // 👀 una forma sería usando structuredClone
+      //  una forma sería usando structuredClone
       // const newState = structuredClone(state)
       // newState[productInCartIndex].quantity += 1
 
-      // 👶 usando el map
+      // usando el map
       // const newState = state.map(item => {
       //   if (item.id === id) {
       //     return {
@@ -34,7 +34,7 @@ const UPDATE_STATE_BY_ACTION = {
       //   return item
       // })
 
-      // ⚡ usando el spread operator y slice
+      // usando el spread operator y slice
       const newState = [
         ...state.slice(0, productInCartIndex),
         { ...state[productInCartIndex], quantity: state[productInCartIndex].quantity + 1 },
@@ -48,7 +48,7 @@ const UPDATE_STATE_BY_ACTION = {
     const newState = [
       ...state,
       {
-        ...action.payload, // product
+        ...action.payload, 
         quantity: 1
       }
     ]
