@@ -30,19 +30,20 @@ Este proyecto es una aplicación web de una tienda en línea creada con **React*
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    git clone https://github.com/MiquelRoca18/shoppingCart.git
     ```
 
 2. Instala las dependencias:
 
     ```bash
+    cd shoppingCart
     npm install
     ```
 
 3. Ejecuta la aplicación:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## 🌟 Futuras mejoras
